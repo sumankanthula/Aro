@@ -1,0 +1,84 @@
+[
+  {
+    "Name": "Hampton By Hilton Dublin City Centre",
+    "Description": "Boasting a fitness centre, bar, shared lounge and free WiFi, Hampton By Hilton Dublin City Centre is situated in Dublin, 200 m from St. Michan's Church and 500 m from Jameson Distillery. This property is located a short distance from attractions such as St Patrick's Cathedral, National Museum of Ireland - Decorative Arts & History, and Trinity College. Guests can have a drink at the snack bar.The hotel will provide guests with air - conditioned rooms offering a desk, a kettle, a fridge, a safety deposit box, a flat-screen TV and a private bathroom with a shower.At Hampton By Hilton Dublin City Centre the rooms come with bed linen and towels.Guests at the accommodation can enjoy a continental or a buffet breakfast. Non-stop advice is available at the reception, where staff speak English, Spanish, Irish and Portuguese.Popular points of interest near Hampton By Hilton Dublin City Centre include The City Hall, Dublin Castle and Chester Beatty Library. The nearest airport is Dublin Airport, 11 km from the hotel.This is our guests' favourite part of Dublin, according to independent reviews.  Couples particularly like the location — they rated it 9.1 for a two-person trip.;",
+    "Price": 180,
+    "Address": {
+      "City": "Galway",
+      "Country": "Ireland",
+      "ZipCode": "12345",
+      "StreetName": " 25 Chancery Street Smithfield"
+    },
+    "Images": [
+      { "Url": "/images/316591144.webp" },
+      { "Url": "/images/44358273.webp" }
+    ],
+    "Promotions": [],
+    "Features": [
+      { "Name": "Air Conditioning" },
+      { "Name": "Free WiFi" },
+      { "Name": "Private Bathroom" },
+      { "Name": "Swimming Pool" },
+      { "Name": "Non Smoking" },
+    ],
+    "RoomCategorey": [
+      { "Name": "Twin Room" },
+      { "Name": "2 Single Beds" }
+    ]
+  },
+  {
+    "Name": "Beresford Hotel",
+    "Description": "Beresford Hotel is located in Dublin's city centre, just 10 minutes’ walk from the Temple Bar area. It offers free Wi-Fi and an award-winning restaurant and bar.\n\r Beresford Hotel is just 5 minutes’ walk from O'Connell Street and Dublin's bars, restaurants and shops. The IFSC (International Financial Services Centre) and Croke Park are a 10-minute walk away. All rooms have a TV, laptop safe, work area and free tea and coffee. Each en suite bathroom has a hairdryer, and there are also ironing facilities provided.Il Vignardo Restaurant serves a modern Italian menu and buffet breakfasts, also featuring a heated courtyard for al fresco dining. Le Monde Café Bar offers a lunch menu and a relaxed place to enjoy a pint of Guinness or watch live sports.Connolly Station is 280 m away, with bus, tram and rail services.This is our guests' favourite part of Dublin, according to independent reviews.Couples particularly like the location — they rated it 8.6 for a two-person trip.Beresford Hotel has been welcoming Booking.com guests since 23 Dec 2009.",
+    "Price": 110,
+    "Address": {
+      "City": "D1 Dublin",
+      "Country": "Ireland",
+      "ZipCode": "55442",
+      "StreetName": "Store Street"
+    },
+    "Images": [
+      { "Url": "/images/360575963.jpg" },
+      { "Url": "/images/227566185.jpg" }
+    ],
+    "Promotions": [],
+    "Features": [
+      { "Name": "Air Conditioning" },
+      { "Name": "Free WiFi" },
+      { "Name": "Private Bathroom" },
+      { "Name": "Non Smoking" }
+    ],
+    "RoomCategorey": [
+      { "Name": "Twin Room" },
+      { "Name": "King Size Bed" }
+    ]
+
+  },
+  {
+    "Name": "Egans House",
+    "Description": "Situated 5 minutes' drive to Dublin city centre and 15 minutes' drive from Dublin Airport, Egans House offers home-cooked breakfasts and affordable rooms. Croke Park is 10 minutes' walk from the property. Rooms at Egans House all feature free Wi-Fi, tea and coffee-making facilities, internet - enabled flat screen TV with Netflix/Amazon Prime etc. available if you have an account with them, safes and ironing facilities. Rooms include an en suite bathroom with a shower and a hairdryer.Each morning guests can order a traditional Irish or continental breakfast for a surcharge. The lounge has a large TV.Regular buses to the city centre stop nearby and take about 10 minutes to reach Temple Bar.The friendly 3-star B&B is in the Drumcondra area of North Dublin, in a quiet residential area with pubs, restaurants and shops. Guests may receive discounted rates in local bars and restaurants, and they can inquire about any offers at reception upon arrival. It has multilingual staff who can assist with arranging transport and sightseeing recommendations.Couples particularly like the location — they rated it 8.2 for a two-person trip.Egans House has been welcoming Booking.com guests since 16 Nov 2009.",
+    "Price": 123,
+    "Address": {
+      "City": "D9 Dublin",
+      "Country": "Ireland",
+      "ZipCode": "55442",
+      "StreetName": "7 Iona Park"
+    },
+    "Images": [
+      { "Url": "/images/357491134.jpg" },
+      { "Url": "/images/227566185.jpg" }
+    ],
+    "Promotions": [],
+    "Features": [
+      { "Name": "Air Conditioning" },
+      { "Name": "Free WiFi" },
+      { "Name": "Private Bathroom" },
+      { "Name": "Non Smoking" }
+    ],
+    "RoomCategorey": [
+      { "Name": "Twin Room + Special Lake View" },
+      { "Name": "King Size Bed & Extra bed for guest" }
+    ]
+
+  }
+
+]
