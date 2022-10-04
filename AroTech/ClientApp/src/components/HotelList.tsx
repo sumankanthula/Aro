@@ -28,7 +28,6 @@ class HotelList extends React.PureComponent<HotelListProps> {
         return (
             <React.Fragment>
                 {this.renderHotelList()}
-                {this.renderPagination()}
             </React.Fragment>
         );
     }
@@ -71,7 +70,7 @@ class HotelList extends React.PureComponent<HotelListProps> {
 
                                 </Col>
                                 <Col sm={2}>
-                                    <label style={{ fontSize: "bold" }}>Price</label> ${hotel.Price}
+                                    <span style={{ fontWeight: "bold" }}>Price</span>  ${hotel.Price}
                                 </Col>
 
                             </Row>
@@ -81,30 +80,6 @@ class HotelList extends React.PureComponent<HotelListProps> {
             </div>
         );
     }
-
-    private renderPagination() {
-        const prevStartDateIndex = (this.props.startDateIndex || 0) - 5;
-        const nextStartDateIndex = (this.props.startDateIndex || 0) + 5;
-
-        return (
-            <div className="d-flex justify-content-between">
-                <Link className='btn btn-outline-secondary btn-sm' to={`/fetch-data/${prevStartDateIndex}`}>Previous</Link>
-                {this.props.isLoading && <span>Loading...</span>}
-                <Link className='btn btn-outline-secondary btn-sm' to={`/fetch-data/${nextStartDateIndex}`}>Next</Link>
-            </div>
-        );
-    }
-    private renderPageTitle() {
-        return (
-            //<img src={"https://localhost:44326/images/IMG_0856.JPG"}
-            //    alt="Beresford Hotel" width="200" height="200" data-testid="image" />
-            <img src={"/images/44358273.webp"
-            }
-                alt="Beresford Hotel" width="200" height="200" data-testid="image" />
-
-        );
-    }
-
 }
 
 export default connect(

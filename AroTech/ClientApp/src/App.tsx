@@ -11,10 +11,8 @@ import './custom.css'
 
 export default () => (
     <Layout>
-        <Route exact path='/' component={Home} />
-        <Route path='/counter' component={Counter} />
-        <Route path='/fetch-data/:startDateIndex?' component={FetchData} />
-        <Route path='/hotel-list/:startDateIndex?' component={HotelList} />
+        <Route exact path='/' component={HotelList} />
+        <Route path='/hotel-list' component={HotelList} />
         <Route path='/hotel-details/:id?' component={HotelDetail} />
 
     </Layout>

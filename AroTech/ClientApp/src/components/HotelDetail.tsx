@@ -43,7 +43,6 @@ class HotelDetail extends React.PureComponent<HotelDetailProps> {
                     <Container>
                         <Row style={{ border: "1px solid lightslategray", marginBottom: "15px" }}>
                             <Col sm={4}>
-
                                 <Row style={{ marginBottom: "15px" }}>
                                     {this.props.hotelDetail && this.props.hotelDetail.Images && this.props.hotelDetail.Images.map((image: HotelStore.Image) =>
                                         <Container>
@@ -55,8 +54,6 @@ class HotelDetail extends React.PureComponent<HotelDetailProps> {
                                     )
                                     }
                                 </Row>
-
-
                             </Col>
                             <Col sm={6}>
                                 <Row style={{ marginBottom: "15px" }}>
@@ -66,32 +63,35 @@ class HotelDetail extends React.PureComponent<HotelDetailProps> {
                                     {this.props.hotelDetail && this.props.hotelDetail.Address && `${this.props.hotelDetail.Address.City} ${this.props.hotelDetail.Address.Country}`}
                                 </Row>
                                 <Row style={{ marginBottom: "15px" }}>
+                                    <span style={{ fontWeight: "bold" }}>Room Categorey</span>
+                                </Row>
+                                <Row style={{ marginBottom: "15px" }}>
                                     {this.props.hotelDetail && this.props.hotelDetail.RoomCategorey && this.props.hotelDetail.RoomCategorey.map((feature: HotelStore.Feature) =>
-                                        <Container>
-                                            <Row key={feature.Name} style={{ marginBottom: "15px" }}>
-                                                {feature.Name}
-                                            </Row>
-                                        </Container>
+                                        <Col key={feature.Name} sm={4} >
+                                            {feature.Name}
+                                        </Col>
                                     )
                                     }
                                 </Row>
                                 <Row style={{ marginBottom: "15px" }}>
+                                    <span style={{ fontWeight: "bold" }}>Extra Features</span>
+                                </Row>
+                                <Row style={{ marginBottom: "15px" }}>
+
                                     {this.props.hotelDetail && this.props.hotelDetail.Features && this.props.hotelDetail.Features.map((feature: HotelStore.Feature) =>
-                                        <Container>
-                                            <Row key={feature.Name} style={{ marginBottom: "15px" }}>
-                                                {feature.Name}
-                                            </Row>
-                                        </Container>
+                                        <Col sm={4}>{feature.Name}</Col>
                                     )
                                     }
                                 </Row>
                                 <Row style={{ marginBottom: "15px" }}>
-                                    {this.props.hotelDetail && this.props.hotelDetail.Description}
+                                    <Col>
+                                        {this.props.hotelDetail && this.props.hotelDetail.Description}
+                                    </Col>
                                 </Row>
 
                             </Col>
                             <Col sm={2}>
-                                ${this.props.hotelDetail && this.props.hotelDetail.Price}
+                                <span style={{ fontWeight: "bold" }}>Price</span> ${this.props.hotelDetail && this.props.hotelDetail.Price}
                             </Col>
 
                         </Row>
